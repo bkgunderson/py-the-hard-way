@@ -1,4 +1,6 @@
+# assign a string value to a variable
 days = "Mon Tue Wed Thu Fri Sat Sun"
+# assign a string value with escape sequences to a variable
 months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
 
 print "Here are the days: ", days
