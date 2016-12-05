@@ -4,10 +4,11 @@ import ex25
 def break_words(stuff):
     """
     This function will break up words for us.
-    :param: stuff
-    :return: words
+    :param stuff:
+    :return words:
     """
     words = stuff.split(' ')
+    assert isinstance(words, list)
     return words
 
 
